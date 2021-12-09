@@ -38,7 +38,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
-![Image](MTA_NYC_logo.svg.png)
+![Image](https://imgur.com/a/Ce3Fcps)
+![Image](https://imgur.com/a/hFjhTUt)
+![Image](https://imgur.com/a/QKj1iqH)
 
 ### Databases:
 >https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49
