@@ -45,11 +45,11 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 ![Image](Screenshot_3.png)
 
 - White circles represent MTA Subway Stations
- - Can be clicked on to show the name of the Subway station and all of the Subway lines that pass through the station
+  - Can be clicked on to show the name of the Subway station and all of the Subway lines that pass through the station
 - Cyan circles represent MTA Subway Entrances
 - Colored lines represent MTA Subway lines, such as the A, D, R, or L
- - The color of the line represents the color of MTA Subway line
- - Can be hovered over to show the name of the line
+  - The color of the line represents the color of MTA Subway line
+  - Can be hovered over to show the name of the line
 
 
 ### Databases:
