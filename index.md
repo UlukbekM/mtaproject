@@ -5,7 +5,7 @@
 
 ## Data:
 
-[WEB VERSION](https://ulukbekm.github.io/website/)
+[OPEN IN BROWSER](https://ulukbekm.github.io/website/)
 
 ### Images:
 ![Image](/images/Screenshot_2.png)
