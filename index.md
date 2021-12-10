@@ -5,8 +5,6 @@
 
 ## Data:
 
-## Techniques: 
-
 [WEB VERSION](https://ulukbekm.github.io/website/)
 
 ### Images:
@@ -21,6 +19,10 @@
 - Colored lines represent MTA Subway lines, such as the A, D, R, or L
   - The color of the line represents the color of MTA Subway line
   - Can be hovered over to show the name of the line
+
+## Techniques: 
+
+
 
 ## Citations:
 
