@@ -4,8 +4,16 @@ For this project, after acquiring the NYC Database data on MTA Stations and Entr
 
 
 ## Data:
-
 [OPEN IN BROWSER](https://ulukbekm.github.io/website/)
+
+After going through the original NYC Database .csv file and applying functions to export the data, the resulting data was extracted: [stations.csv](stations.csv) and [entrances.csv](entrances.csv). These two DataFrames were used to plot the stations and entrances on a folium map.
+
+![Stations](/images/stations.png)
+
+![Entrances](/images/entrances.png)
+
+To have clickable stations and entrances, the entrances were plotted second, in order to not have the station circle covering the entrance circles and blocking them from being clicked and displaying information.
+
 
 ### Images:
 ![Image](/images/Screenshot_2.png)
@@ -20,8 +28,27 @@ For this project, after acquiring the NYC Database data on MTA Stations and Entr
   - The color of the line represents the color of MTA Subway line
   - Can be hovered over to show the name of the line
 
-
 ### Latitude and Longitude values of every station for every line:
+
+
+In order to achieve lines being drawn on the map such as this: 
+
+![image](/images/lines.png)
+
+I had to clean up the data several times. In its raw form, after extracting the Subway stations from the original database and drawing the Subway lines, the resulting line would look like this:
+
+![image](/images/A_preSort.png)
+
+After applying the ```sort()``` function on the DataFrame, the A line in this case would look like this:
+
+![image](/images/A_afterSort.png)
+
+To finally achieve the final product, I had to manipulate the order of the latitude and longitude values in the .csv file of that line to be in the right order, resulting in a correct line representation.
+
+![image](/images/A_sorted.png)
+
+The .csv files below represent all of the stations that a Subway line would go through throughout its route after editing and sorting so that they would be in the right order and accurate to the MTA Subway lines' route. 
+
 * [1 Line](/MTALines/1Line.csv)
 * [2 Line](/MTALines/2Line.csv)
 * [3 Line](/MTALines/3Line.csv)
@@ -49,7 +76,9 @@ For this project, after acquiring the NYC Database data on MTA Stations and Entr
 * [Z Line](/MTALines/ZLine.csv)
 
 ## Techniques: 
+After downloading the data from the Database, the main column for this project was labeled as "the_geom" and contained data in a format such as this "POINT (-73.99106999861966 40.73005400028978)". In order to make the data suitable to my needs, I created the functions ```clean()``` and ```cleanEntrances()``` which would turn the data given in "the_geom" in both database .csv files into two dataframes: [stations.csv](stations.csv) and [entrances.csv](entrances.csv). 
 
+Once all of the needed data was gathered, I initialized the folium map which was centered at (40.73918819124564, -73.9493588415071), the coordinates of NYC, zoom was set at 11 in order to capture all of the plotted data in one view, and the tile was set to ```cartodbdark_matter```
 
 
 ## Citations:
