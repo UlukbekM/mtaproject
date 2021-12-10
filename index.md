@@ -167,7 +167,6 @@ m = folium.Map(location=[40.73918819124564, -73.9493588415071],
                                                                zoom_start=11,
                                                                tiles='cartodbdark_matter') #Create the folium map centered on NYC with a 'cartodbark_matter' tile style in order to distinguish MTA lines more clearly
 #stamenwatercolor OpenStreetMap
-#m.fit_bounds([[40.491114792501556, -74.2672757116243], [40.85153501653319, -73.78319062861648]])
 
    
 """ #Method used to extract the latitude and longitude points of stations that a MTA Subway Line passes through in order to extract the points into a separate .csv file dedicated to that line.
