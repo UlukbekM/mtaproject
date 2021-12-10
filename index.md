@@ -110,7 +110,6 @@ After drawing the lines, all of the Subway stations and entrances are drawn on t
 
 ### Code:
 ```
-
 import pandas as pd
 import pandasql as psql
 import folium
