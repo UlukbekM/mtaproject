@@ -1,18 +1,15 @@
-## Title
+# Title
 
 
-### Overview:
+## Overview:
 
-### Data:
+## Data:
 
-### Techniques: 
-
-### Citations:
+## Techniques: 
 
 [WEB VERSION](https://ulukbekm.github.io/website/)
 
 ### Images:
-
 ![Image](/images/Screenshot_2.png)
 ![Image](/images/Screenshot_1.png)
 ![Image](/images/Screenshot_3.png)
@@ -25,6 +22,7 @@
   - The color of the line represents the color of MTA Subway line
   - Can be hovered over to show the name of the line
 
+## Citations:
 
 ### Databases:
 > https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49
