@@ -96,6 +96,17 @@ After drawing the lines, all of the Subway stations and entrances are drawn on t
 
 > https://data.cityofnewyork.us/Transportation/Subway-Entrances/drex-xx56
 
+### Resources:
+> https://python-visualization.github.io/folium/quickstart.html
+
+> https://autogis-site.readthedocs.io/en/latest/notebooks/L5/02_interactive-map-folium.html
+
+> https://python-visualization.github.io/folium/modules.html
+
+> https://deparkes.co.uk/2016/06/03/plot-lines-in-folium/
+
+
+
 
 ### Code:
 ```
