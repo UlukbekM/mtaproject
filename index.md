@@ -1,7 +1,7 @@
-# Title
-
-
 ## Overview:
+
+For this project, after acquiring the NYC Database data on MTA Stations and Entrances in a .csv format, I extracted the needed information such as the latitude and longitude values of all of the stations and entrances in order to display them on a map of NYC. In order to extract the latitude and longitude values, I used an SQL search after importing the databases. After preparing the data for use, I used the help of the folium library in order to plot all of the points on the map. Once all of the stations were plotted on the map, I used their global locations in order to connect each station to each other through the Subway lines that run through them.
+
 
 ## Data:
 
@@ -19,6 +19,34 @@
 - Colored lines represent MTA Subway lines, such as the A, D, R, or L
   - The color of the line represents the color of MTA Subway line
   - Can be hovered over to show the name of the line
+
+
+### Latitude and Longitude values of every station for every line:
+* [1 Line](/MTALines/1Line.csv)
+* [2 Line](/MTALines/2Line.csv)
+* [3 Line](/MTALines/3Line.csv)
+* [4 Line](/MTALines/4Line.csv)
+* [5 Line](/MTALines/5Line.csv)
+* [6 Line](/MTALines/6Line.csv)
+* [7 Line](/MTALines/7Line.csv)
+
+* [A Line](/MTALines/ALine.csv)
+* [B Line](/MTALines/BLine.csv)
+* [C Line](/MTALines/CLine.csv)
+* [D Line](/MTALines/DLine.csv)
+* [E Line](/MTALines/ELine.csv)
+* [F Line](/MTALines/FLine.csv)
+* [G Line](/MTALines/GLine.csv)
+* [J Line](/MTALines/JLine.csv)
+* [L Line](/MTALines/LLine.csv)
+* [M Line](/MTALines/MLine.csv)
+* [N Line](/MTALines/NLine.csv)
+* [Q Line](/MTALines/QLine.csv)
+* [R Line](/MTALines/RLine.csv)
+* [S Line](/MTALines/S1Line.csv)
+* [S Line](/MTALines/S2Line.csv)
+* [W Line](/MTALines/WLine.csv)
+* [Z Line](/MTALines/ZLine.csv)
 
 ## Techniques: 
 
