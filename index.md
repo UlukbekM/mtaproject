@@ -78,7 +78,15 @@ The .csv files below represent all of the stations that a Subway line would go t
 ## Techniques: 
 After downloading the data from the Database, the main column for this project was labeled as "the_geom" and contained data in a format such as this "POINT (-73.99106999861966 40.73005400028978)". In order to make the data suitable to my needs, I created the functions ```clean()``` and ```cleanEntrances()``` which would turn the data given in "the_geom" in both database .csv files into two dataframes: [stations.csv](stations.csv) and [entrances.csv](entrances.csv). 
 
-Once all of the needed data was gathered, I initialized the folium map which was centered at (40.73918819124564, -73.9493588415071), the coordinates of NYC, zoom was set at 11 in order to capture all of the plotted data in one view, and the tile was set to ```cartodbdark_matter```
+After gathering the stations and entrances data, next, I had to gather the data for the Subway Lines. To have clean and accurate lines of the Subway line route, I had to create a separate .csv file for each line from 1-7 lines and from A-Z lines. I started this process by going through each one by one. At first, the stations that have a Subway line like the 'D train' pass through them were appended in an empty array. The data was then sent through a ```sort()``` method, which would order the rows in the data from lowest to highest in order to reduce the workload needed to accurately order all of the stations. Once the ```sort()``` method was applied, the data was then extracted into an external .csv file and manipulated to have the stations in the right order and to have an accurate representation of the real route that specific Subway line takes.
+
+After the Subway line data is put in the correct data, it is imported back into the code file and sent through a formatting function ```makePoints(variableName)```, which would format the data in a way which will be accepted by folium's PolyLine. 
+
+Once all of the needed data was gathered, I initialized the folium map which was centered at (40.73918819124564, -73.9493588415071), the coordinates of NYC, zoom was set at 11 in order to capture all of the plotted data in one view, and the tile was set to ```cartodbdark_matter```, which shows a map of the dark version of NYC in order to bring all of the focus on the stations, entrances, and lines drawn on the map. 
+
+To have all of the Subway lines displayed on one map together, all of the lines have to be imported and formatted before being sent to PolyLine. PolyLine then processes the data given and after adding configuration adds the lines the initial folium map initialization. 
+
+After drawing the lines, all of the Subway stations and entrances are drawn on top of the lines by placing ```folium.Circle``` markers on the given latitude and longitude values of every station and entrance. Once all of the configurations, such as radius and color are set, the folium map is then finally saved into an .html file which can be opened in a browser.
 
 
 ## Citations:
