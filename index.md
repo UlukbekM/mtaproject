@@ -70,8 +70,8 @@ The .csv files below represent all of the stations that a Subway line would go t
 * [N Line](/MTALines/NLine.csv)
 * [Q Line](/MTALines/QLine.csv)
 * [R Line](/MTALines/RLine.csv)
-* [S Line](/MTALines/S1Line.csv)
-* [S Line](/MTALines/S2Line.csv)
+* [S Line](/MTALines/SLine1.csv)
+* [S Line](/MTALines/SLine2.csv)
 * [W Line](/MTALines/WLine.csv)
 * [Z Line](/MTALines/ZLine.csv)
 
