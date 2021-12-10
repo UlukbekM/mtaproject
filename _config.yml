@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
 title: MTA Subway Stations and Entrances
 logo: "/images/MTA.png"
+description: This project displays all of the MTA Stations and entrances provided by the NYC Database. The data is used to connect the stations by creating the Subway lines that run through each station.
