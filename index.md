@@ -44,9 +44,9 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ### Images:
 
-![Image](Screenshot_2.png)
-![Image](Screenshot_1.png)
-![Image](Screenshot_3.png)
+![Image](/images/Screenshot_2.png)
+![Image](/images/Screenshot_1.png)
+![Image](/images/Screenshot_3.png)
 
 - White circles represent MTA Subway Stations
   - Can be clicked on to show the name of the Subway station and all of the Subway lines that pass through the station
