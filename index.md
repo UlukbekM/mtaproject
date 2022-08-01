@@ -5,7 +5,7 @@ For this project, after acquiring the NYC Database data on MTA Stations and Entr
 
 ## Data:
 Click on the following link to see the results of the project:
-[CLICK ME](https://ulukbekm.github.io/website/)
+[OPEN](https://ulukbekm.github.io/website/)
 
 After going through the original NYC Database .csv file and applying functions to export the data, the resulting data was extracted: [stations.csv](stations.csv) and [entrances.csv](entrances.csv). These two DataFrames were used to plot the stations and entrances on a folium map.
 
